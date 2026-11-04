@@ -1,0 +1,13 @@
+.account-card .hint { margin: 12px 0; }
+.account-card .tool { width: 100%; }
+.auth-overlay { position: fixed; inset: 0; z-index: 10; display: grid; place-items: center; padding: 16px; background: rgba(41,49,70,.67); }
+.auth-overlay[hidden] { display: none; }
+.auth-box { width: min(100%,390px); padding: 28px; background: #fffdf8; border: 3px solid #293146; box-shadow: 8px 8px 0 #293146; }
+.auth-box h2 { font-family: "ZCOOL KuaiLe",Arial,sans-serif; font-size: 28px; margin: 14px 0 8px; }
+.auth-box .hint { margin-bottom: 20px; }
+.auth-box label { display: block; font-weight: bold; font-size: 12px; margin: 14px 0 7px; }
+.auth-box input { width: 100%; padding: 12px; border: 2px solid #293146; background: #fff; font-size: 16px; }
+.auth-box input:focus { outline: 3px solid #f4ad84; }
+.auth-error { min-height: 18px; color: #bb3f38; font-size: 12px; }
+.primary-button { width: 100%; padding: 13px; border: 2px solid #293146; background: #f07466; box-shadow: 3px 3px 0 #293146; font-weight: bold; cursor: pointer; }
+.link-button { display: block; margin: 17px auto 0; background: none; border: 0; color: #395f9a; text-decoration: underline; cursor: pointer; }

@@ -1,0 +1,8 @@
+.board-stack { position: relative; }
+.board-stack #effects { position: absolute; inset: 0; border: 3px solid transparent; background: transparent; pointer-events: none; }
+.reactions { border-top: 3px solid #293146; padding: 14px 18px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.reactions button { border: 2px solid #293146; background: #fff0d7; padding: 10px 12px; font-weight: bold; cursor: pointer; box-shadow: 3px 3px 0 #293146; }
+.reactions button:nth-child(2) { background: #e1f2dc; }
+.reactions button:disabled { opacity: .5; cursor: not-allowed; box-shadow: none; }
+.reactions strong { margin-left: 7px; font-family: monospace; }
+.reactions span { color: #777e8c; font-size: 11px; }

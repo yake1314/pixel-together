@@ -1,0 +1,5 @@
+.upload-card input[type=file] { width: 100%; font-size: 12px; margin: 3px 0 15px; }
+.upload-card .primary-button { font-size: 12px; }
+.upload-card button:disabled { opacity: .55; cursor: not-allowed; box-shadow: none; }
+.timer { background: #fff2d5; border: 2px solid #293146; padding: 9px; margin: 18px 0 0; font-size: 12px; text-align: center; font-weight: bold; }
+.upload-message { min-height: 18px; font-size: 11px; color: #a34338; line-height: 1.5; }
